@@ -25,7 +25,7 @@ def go(args):
     # HINT: you can use args.artifact_name to reference the parameter artifact_name
 
     artifact = wandb.Artifact(
-        name=args.artiface_name,
+        name=args.artifact_name,
         type="artifact_type",
         description="artifact_desc",
         metadata={
